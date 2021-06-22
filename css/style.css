@@ -125,6 +125,12 @@ img {
   text-align: center;
   width: 50%; }
 
+@media (max-width: 1200px) {
+  .cta .h2 {
+    font-size: 2rem; }
+  .cta .btn {
+    font-size: 1.3rem; } }
+
 .header {
   background-image: linear-gradient(to right, rgba(235, 251, 255, 0.5), rgba(235, 251, 255, 0.5)), url("../images/bg-hero-desktop.svg");
   background-repeat: no-repeat;
@@ -138,7 +144,8 @@ img {
   .header__top {
     margin-bottom: 5rem;
     display: flex;
-    justify-content: space-between; }
+    justify-content: space-between;
+    align-items: center; }
   .header__logo {
     height: 3rem; }
   .header__content {
@@ -155,6 +162,14 @@ img {
     flex: 1 1 40%;
     animation: moveInRight 0.75 ease-out 1s;
     animation-fill-mode: backwards; }
+
+@media (max-width: 1000px) {
+  .header {
+    text-align: center; }
+    .header__content {
+      flex-direction: column; }
+    .header__text-box {
+      margin-bottom: 4rem; } }
 
 .section {
   max-width: 144rem;
@@ -174,6 +189,16 @@ img {
     margin-bottom: 2rem; }
   .section__img {
     width: 40%; }
+
+@media (max-width: 1000px) {
+  .section {
+    flex-direction: column;
+    text-align: center;
+    max-width: 60rem; }
+    .section__text-box {
+      order: 2; }
+    .section__img {
+      order: 1; } }
 
 .footer {
   background-color: #00252e;
@@ -222,6 +247,16 @@ img {
   .footer__copyright {
     text-align: right; }
 
+@media (max-width: 1000px) {
+  .footer__info {
+    flex-direction: column; }
+  .footer__socials {
+    text-align: center;
+    width: auto;
+    margin: 0 auto; }
+  .footer__copyright {
+    text-align: center; } }
+
 .attribution {
   font-size: 11px;
   text-align: center; }
@@ -230,5 +265,9 @@ img {
   color: #3e52a3; }
 
 .main {
-  padding: 10rem 0;
+  padding: 20rem 0;
   position: relative; }
+
+@media (max-width: 1000px) {
+  .main {
+    padding: 10rem 0 20rem 0; } }

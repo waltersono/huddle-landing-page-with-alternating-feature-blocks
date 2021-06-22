@@ -49,6 +49,7 @@
 
     &__socials {
         display: flex;
+
         svg {
             width: 3rem;
             height: 3rem;
@@ -67,5 +68,22 @@
     }
     &__copyright {
         text-align: right;
+    }
+}
+
+@media (max-width: 1000px) {
+    .footer {
+        &__info {
+            flex-direction: column;
+        }
+        &__socials {
+            text-align: center;
+            width: auto;
+            margin: 0 auto;
+        }
+
+        &__copyright {
+            text-align: center;
+        }
     }
 }

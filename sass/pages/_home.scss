@@ -7,6 +7,12 @@
 }
 
 .main {
-    padding: 10rem 0;
+    padding: 20rem 0;
     position: relative;
+}
+
+@media (max-width: 1000px) {
+    .main {
+        padding: 10rem 0 20rem 0;
+    }
 }

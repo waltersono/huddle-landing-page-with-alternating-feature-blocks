@@ -9,3 +9,15 @@
     text-align: center;
     width: 50%;
 }
+
+@media (max-width: 1200px) {
+    .cta {
+        .h2 {
+            font-size: 2rem;
+        }
+
+        .btn {
+            font-size: 1.3rem;
+        }
+    }
+}

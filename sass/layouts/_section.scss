@@ -21,3 +21,19 @@
         width: 40%;
     }
 }
+
+@media (max-width: 1000px) {
+    .section {
+        flex-direction: column;
+        text-align: center;
+        max-width: 60rem;
+
+        &__text-box {
+            order: 2;
+        }
+
+        &__img {
+            order: 1;
+        }
+    }
+}
