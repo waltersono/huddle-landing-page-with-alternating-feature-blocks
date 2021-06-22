@@ -1,0 +1,234 @@
+.mb-sm {
+  margin-bottom: 2rem; }
+
+.mb-sm {
+  margin-bottom: 3rem; }
+
+.mb-sm {
+  margin-bottom: 4rem; }
+
+.mt-sm {
+  margin-top: 2rem; }
+
+.mt-sm {
+  margin-top: 2rem; }
+
+.mt-sm {
+  margin-top: 2rem; }
+
+.h1 {
+  font-family: "Poppins";
+  font-size: 4rem;
+  color: #00252e; }
+
+.h2 {
+  font-family: "Poppins";
+  font-size: 3rem;
+  color: #00252e; }
+
+.h3 {
+  font-family: "Poppins";
+  font-size: 2.5rem;
+  color: #00252e; }
+
+.paragraph {
+  font-family: 1.8rem;
+  font-size: 1.8rem; }
+
+.paragraph--black {
+  color: #00252e; }
+
+.paragraph--gray {
+  color: #808d99; }
+
+.paragraph:not(:last-child) {
+  margin-bottom: 2rem; }
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box; }
+
+body {
+  font-size: 1.8rem;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  line-height: 1.5; }
+
+img {
+  max-width: 100%; }
+
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(5rem); }
+  100% {
+    opacity: 1;
+    transform: translateX(0); } }
+
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-5rem); }
+  100% {
+    opacity: 1;
+    transform: translateX(0); } }
+
+.btn,
+.btn:link,
+.btn:visited {
+  text-decoration: none;
+  border-radius: 10rem;
+  padding: 0.8em 4em;
+  font-family: "Poppins";
+  display: inline-block;
+  cursor: pointer;
+  transition: all 0.2s; }
+
+.btn:hover,
+.btn:active {
+  opacity: 0.8; }
+
+.btn--primary {
+  background-color: #ff52bf;
+  color: #ebfbff; }
+
+.btn--neutral {
+  background-color: #fff;
+  color: #000;
+  font-weight: 700;
+  box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.2); }
+
+.btn--sm {
+  font-size: 1rem; }
+
+.btn--md {
+  font-size: 1.8rem; }
+
+.btn--lg {
+  font-size: 2.6rem; }
+
+.cta {
+  background-color: #ebfbff;
+  position: absolute;
+  padding: 5rem;
+  border-radius: 1rem;
+  bottom: -10rem;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  width: 50%; }
+
+.header {
+  background-image: linear-gradient(to right, rgba(235, 251, 255, 0.5), rgba(235, 251, 255, 0.5)), url("../images/bg-hero-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top;
+  padding: 5rem 0; }
+  .header__container {
+    max-width: 144rem;
+    width: 90%;
+    margin: 0 auto; }
+  .header__top {
+    margin-bottom: 5rem;
+    display: flex;
+    justify-content: space-between; }
+  .header__logo {
+    height: 3rem; }
+  .header__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; }
+  .header__text-box {
+    flex: 1 1 40%;
+    animation: moveInLeft 0.75 ease-out 1s;
+    animation-fill-mode: backwards;
+    backface-visibility: hidden; }
+  .header__img {
+    flex: 1 1 40%;
+    animation: moveInRight 0.75 ease-out 1s;
+    animation-fill-mode: backwards; }
+
+.section {
+  max-width: 144rem;
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 -0.5rem 1rem rgba(0, 0, 0, 0.1);
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  padding: 5rem;
+  border-radius: 1rem; }
+  .section__text-box {
+    width: 50%; }
+  .section__title {
+    margin-bottom: 2rem; }
+  .section__img {
+    width: 40%; }
+
+.footer {
+  background-color: #00252e;
+  color: #fff;
+  padding: 20rem 0 10rem 0; }
+  .footer__container {
+    max-width: 144rem;
+    width: 90%;
+    margin: 0 auto; }
+  .footer__logo {
+    height: 4rem; }
+  .footer__item {
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: flex-start; }
+  .footer__icon {
+    margin-right: 1rem;
+    margin-top: 0.5rem; }
+  .footer__link {
+    text-decoration: none;
+    color: #fff; }
+    .footer__link:hover {
+      text-decoration: underline; }
+  .footer__info {
+    display: flex;
+    justify-content: space-between;
+    margin: 4rem 0; }
+  .footer__list {
+    list-style-type: none;
+    margin-right: 4rem;
+    flex-basis: 50%; }
+    .footer__list:first-child {
+      flex-basis: 100%; }
+  .footer__socials {
+    display: flex; }
+    .footer__socials svg {
+      width: 3rem;
+      height: 3rem;
+      fill: currentColor;
+      transition: all 0.5s; }
+      .footer__socials svg:hover {
+        cursor: pointer;
+        fill: #ff52bf; }
+    .footer__socials svg:not(:last-child) {
+      margin-right: 1rem; }
+  .footer__copyright {
+    text-align: right; }
+
+.attribution {
+  font-size: 11px;
+  text-align: center; }
+
+.attribution a {
+  color: #3e52a3; }
+
+.main {
+  padding: 10rem 0;
+  position: relative; }

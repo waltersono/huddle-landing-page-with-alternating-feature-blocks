@@ -1,0 +1,42 @@
+.header {
+    background-image: linear-gradient(to right, rgba($color-neutral-1, 0.5), rgba($color-neutral-1, 0.5)),
+        url("../images/bg-hero-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
+    padding: 5rem 0;
+
+    &__container {
+        @include container;
+    }
+
+    &__top {
+        margin-bottom: 5rem;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__logo {
+        height: 3rem;
+    }
+
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    &__text-box {
+        flex: 1 1 40%;
+        animation: moveInLeft 0.75 ease-out 1s;
+        animation-fill-mode: backwards;
+        backface-visibility: hidden;
+    }
+
+    &__img {
+        flex: 1 1 40%;
+        animation: moveInRight 0.75 ease-out 1s;
+        animation-fill-mode: backwards;
+    }
+}

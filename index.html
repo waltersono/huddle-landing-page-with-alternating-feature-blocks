@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <title>Frontend Mentor | Huddle landing page with alternating feature blocks</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/style.css">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Poppins:600" rel="stylesheet">
 </head>
@@ -17,18 +17,18 @@
     <div class="header__container">
       <div class="header__top">
         <img src="images/logo.svg" alt="Huddle Logo" class="header__logo">
-        <a href="#" class="btn btn--white btn--md header__btn">Try it Free</a>
+        <a href="#" class="btn btn--neutral btn--md header__btn">Try it Free</a>
       </div>
 
 
       <div class="header__content">
         <div class="header__text-box">
-          <h1 class="header__h1">Build The Community Your Fans Will love</h1>
-          <p class="header__paragraph">
+          <h1 class="h1 header__h1 mb-sm">Build The Community Your Fans Will love</h1>
+          <p class="paragraph paragraph--black">
             Huddle re-imagines the way we build communities. You have a voice, but so does your audience.
             Create connections with your users as you engage in genuine discussion.
           </p>
-          <a href="" class="btn btn--accent btn--md">Get Started For Free</a>
+          <a href="#" class="btn btn--primary btn--md">Get Started For Free</a>
         </div>
         <figure class="header__img">
           <img src="images/illustration-mockups.svg" alt="Illustration mockups">
@@ -42,11 +42,12 @@
 
     <section class="section">
       <div class="section__text-box">
-        <h2 class="section__title">Grow Together</h2>
-        <p class="section__paragraph">
+        <h2 class="h3 mb-sm">Grow Together</h2>
+        <p class="paragraph paragraph--gray">
           Generate meaningful discussions with your audience and build a strong, loyal community.
           Think of the insightful conversations you miss out on with a feedback form.
         </p>
+
       </div>
       <figure class="section__img">
         <img src="images/illustration-grow-together.svg" alt="Grow together">
@@ -58,8 +59,8 @@
         <img src="images/illustration-flowing-conversation.svg" alt="Flow conversation">
       </figure>
       <div class="section__text-box">
-        <h2 class="section__title">Flowing Conversations</h2>
-        <p class="section__paragraph">
+        <h2 class="h3 mb-sm">Flowing Conversations</h2>
+        <p class="paragraph paragraph--gray">
           You wouldn't paginate a conversation in real life, so why do it online? Our threads
           have just-in-time loading for a more natural flow.
         </p>
@@ -68,8 +69,8 @@
 
     <section class="section">
       <div class="section__text-box">
-        <h2 class="section__title">Your Users</h2>
-        <p class="section__paragraph">
+        <h2 class="h3 mb-sm">Your Users</h2>
+        <p class="paragraph paragraph--gray">
           It takes no time at all to integrate Huddle with your app's authentication solution.
           This means, once signed in to your app, your users can start chatting immediately.
         </p>
@@ -80,78 +81,72 @@
     </section>
 
     <section class="cta">
-      <h2 class="cta__title">Ready To Build Your Community?</h2>
-      <a href="#" class="btn btn--accent btn--lg">Get Started For Free</a>
+      <h2 class="h2 mb-sm">Ready To Build Your Community?</h2>
+      <a href="#" class="btn btn--primary btn--lg">Get Started For Free</a>
     </section>
   </main>
 
   <footer class="footer">
-    <figure class="footer__logo">
-      <img src="images/logo.svg" alt="Huddle logo">
-    </figure>
+    <div class="footer__container">
+      <img src="images/footer-logo.svg" alt="Huddle logo" class="footer__logo">
 
-    <div class="footer__info">
-      <ul class="footer__list">
-        <li class="footer__item">
+      <div class="footer__info">
+        <ul class="footer__list">
+          <li class="footer__item">
+            <img src="images/icon-location.svg" class="footer__icon" />
+            <span>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua
+            </span>
+          </li>
+          <li class=" footer__item">
+            <img src="images/icon-phone.svg" class="footer__icon" />
+            <span>
+              +1-543-123-4567
+            </span>
+          </li>
+          <li class="footer__item">
+            <img src="images/icon-email.svg" class="footer__icon" />
+            <span>
+              example@huddle.com
+            </span>
+          </li>
+        </ul>
+
+        <ul class=" footer__list">
+          <li class="footer__item"><a href="#" class="footer__link">About Us</a></li>
+          <li class="footer__item"><a href="#" class="footer__link">What We Do</a></li>
+          <li class="footer__item"><a href="#" class="footer__link">FAQ</a></li>
+        </ul>
+
+        <ul class="footer__list">
+          <li class="footer__item"><a href="#" class="footer__link">Career</a></li>
+          <li class="footer__item"><a href="#" class="footer__link">Blog</a></li>
+          <li class="footer__item"><a href="#" class="footer__link">Contact Us</a></li>
+        </ul>
+
+        <div class="footer__socials">
           <svg>
-            <use xlink:href="images/icon-location.svg"></use>
+            <use xlink:href="images/sprites.svg#icon-facebook-with-circle"></use>
           </svg>
-          <span>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-            incididunt ut labore et dolore magna aliqua
-          </span>
-        </li>
-        <li class="footer__item">
           <svg>
-            <use xlink:href="images/icon-phone.svg"></use>
+            <use xlink:href="images/sprites.svg#icon-twitter-with-circle"></use>
           </svg>
-          <span>
-            +1-543-123-4567
-          </span>
-        </li>
-        <li class="footer__item">
           <svg>
-            <use xlink:href="images/icon-email.svg"></use>
+            <use xlink:href="images/sprites.svg#icon-instagram-with-circle"></use>
           </svg>
-          <span>
-            example@huddle.com
-          </span>
-        </li>
-      </ul>
+        </div>
+      </div>
 
-      <ul class="footer__list">
-        <li class="footer__item"><a href="#" class="footer__link">About Us</a></li>
-        <li class="footer__item"><a href="#" class="footer__link">What We Do</a></li>
-        <li class="footer__item"><a href="#" class="footer__link">FAQ</a></li>
-      </ul>
+      <p class="footer__copyright">
+        &copy; Copyright 2018 Huddle. All rights reserved.
+      </p>
 
-      <ul class="footer__list">
-        <li class="footer__item"><a href="#" class="footer__link">Career</a></li>
-        <li class="footer__item"><a href="#" class="footer__link">Blog</a></li>
-        <li class="footer__item"><a href="#" class="footer__link">Contact Us</a></li>
-      </ul>
-
-      <ul class="footer__list-social">
-        <svg>
-          <use xlink:href="images/sprites.svg#icon-facebook-with-circle.svg"></use>
-        </svg>
-        <svg>
-          <use xlink:href="images/sprites.svg#icon-twitter-with-circle.svg"></use>
-        </svg>
-        <svg>
-          <use xlink:href="images/sprites.svg#icon-instagram-with-circle.svg"></use>
-        </svg>
-      </ul>
+      <p class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="https://linkedin.com/in/waltersono">Walter Sono</a>.
+      </p>
     </div>
-
-    <p class="footer__copyright">
-      &copy; Copyright 2018 Huddle. All rights reserved.
-    </p>
-
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-      Coded by <a href="https://linkedin.com/in/waltersono">Walter Sono</a>.
-    </p>
   </footer>
 </body>
 

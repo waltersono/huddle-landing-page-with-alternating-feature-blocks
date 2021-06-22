@@ -1,0 +1,34 @@
+.h1 {
+    font-family: $font-secondary;
+    font-size: $font-size-h1;
+    color: $color-neutral-2;
+}
+
+.h2 {
+    font-family: $font-secondary;
+    font-size: $font-size-h2;
+    color: $color-neutral-2;
+}
+
+.h3 {
+    font-family: $font-secondary;
+    font-size: $font-size-h3;
+    color: $color-neutral-2;
+}
+
+.paragraph {
+    font-family: $font-size-default;
+    font-size: $font-size-paragraph;
+}
+
+.paragraph--black {
+    color: $color-neutral-2;
+}
+
+.paragraph--gray {
+    color: $color-neutral-3;
+}
+
+.paragraph:not(:last-child) {
+    margin-bottom: 2rem;
+}

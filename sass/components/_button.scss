@@ -1,0 +1,40 @@
+.btn,
+.btn:link,
+.btn:visited {
+    text-decoration: none;
+    border-radius: 10rem;
+    padding: 0.8em 4em;
+    font-family: $font-secondary;
+    display: inline-block;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.btn:hover,
+.btn:active {
+    opacity: 0.8;
+}
+
+.btn--primary {
+    background-color: $color-primary-1;
+    color: $color-neutral-1;
+}
+
+.btn--neutral {
+    background-color: $color-neutral-4;
+    color: #000;
+    font-weight: 700;
+    box-shadow: 0 1rem 1rem rgba(#000, 0.2);
+}
+
+.btn--sm {
+    font-size: $font-size-sm;
+}
+
+.btn--md {
+    font-size: $font-size-md;
+}
+
+.btn--lg {
+    font-size: $font-size-lg;
+}

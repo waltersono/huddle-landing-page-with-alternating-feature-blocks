@@ -1,0 +1,71 @@
+.footer {
+    background-color: $color-neutral-2;
+    color: $color-neutral-4;
+    padding: 20rem 0 10rem 0;
+
+    &__container {
+        @include container;
+    }
+
+    &__logo {
+        height: 4rem;
+    }
+
+    &__item {
+        margin-bottom: 2rem;
+        display: flex;
+        align-items: flex-start;
+    }
+
+    &__icon {
+        margin-right: 1rem;
+        margin-top: 0.5rem;
+    }
+
+    &__link {
+        text-decoration: none;
+        color: $color-neutral-4;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    &__info {
+        display: flex;
+        justify-content: space-between;
+        margin: 4rem 0;
+    }
+
+    &__list {
+        list-style-type: none;
+        margin-right: 4rem;
+        flex-basis: 50%;
+
+        &:first-child {
+            flex-basis: 100%;
+        }
+    }
+
+    &__socials {
+        display: flex;
+        svg {
+            width: 3rem;
+            height: 3rem;
+            fill: currentColor;
+            transition: all 0.5s;
+
+            &:hover {
+                cursor: pointer;
+                fill: $color-primary-1;
+            }
+        }
+
+        svg:not(:last-child) {
+            margin-right: 1rem;
+        }
+    }
+    &__copyright {
+        text-align: right;
+    }
+}
