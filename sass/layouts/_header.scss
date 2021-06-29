@@ -42,7 +42,7 @@
     }
 }
 
-@media (max-width: 1000px) {
+@include respond(desktop) {
     .header {
         text-align: center;
         &__content {
@@ -51,6 +51,14 @@
 
         &__text-box {
             margin-bottom: 4rem;
+        }
+
+        &__top {
+            flex-direction: column;
+        }
+
+        &__logo {
+            margin-bottom: 2rem;
         }
     }
 }

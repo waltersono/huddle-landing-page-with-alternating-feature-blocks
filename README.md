@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Source](https://github.com/waltersono/huddle-landing-page-with-alternating-feature-blocks)
-- Live Site URL: [Live](https://waltersono.github.io/huddle-landing-page-with-alternating-feature-blocks/)
+- Solution URL: [Source code](https://github.com/waltersono/huddle-landing-page-with-alternating-feature-blocks)
+- Live Site URL: [Live project](https://waltersono.github.io/huddle-landing-page-with-alternating-feature-blocks/)
 
 ## My process
 

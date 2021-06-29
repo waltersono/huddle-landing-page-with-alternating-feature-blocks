@@ -22,7 +22,7 @@
     }
 }
 
-@media (max-width: 1000px) {
+@include respond(desktop) {
     .section {
         flex-direction: column;
         text-align: center;
@@ -30,6 +30,7 @@
 
         &__text-box {
             order: 2;
+            width: 100%;
         }
 
         &__img {

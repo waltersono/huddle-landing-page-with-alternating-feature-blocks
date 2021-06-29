@@ -2,16 +2,16 @@
 @import "abstracts/functions";
 @import "abstracts/mixins";
 
-@import "base/utilities";
-@import "base/typography";
 @import "base/base";
+@import "base/typography";
 @import "base/animations";
-
-@import "components/button";
-@import "components/cta";
 
 @import "layouts/header";
 @import "layouts/section";
 @import "layouts/footer";
 
+@import "components/button";
+@import "components/cta";
+
 @import "pages/home";
+@import "base/utilities";

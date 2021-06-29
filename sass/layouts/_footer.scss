@@ -71,7 +71,7 @@
     }
 }
 
-@media (max-width: 1000px) {
+@include respond(desktop) {
     .footer {
         &__info {
             flex-direction: column;
